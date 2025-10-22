@@ -1,0 +1,24 @@
+/* CSS Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Variáveis para Cores */
+:root {
+    --preto: #000000;
+    --branco: #ffffff;
+    --cinza: #CCCCCC;
+}
+
+/* Layout */
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+body {
+    font-family: "Inknut Antiqua", serif;
+}
