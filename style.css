@@ -21,4 +21,56 @@
 
 body {
     font-family: "Inknut Antiqua", serif;
+    background-color: var(--preto);
+}
+
+/* Cabeçalho */
+header img {
+    width: 100px;
+    height: 100px;
+    margin-top: 50px;
+    border-radius: 50%;
+
+}
+
+/* Principal */
+
+main {
+    text-align: center;
+}
+
+main h1 {
+    margin-top: 10px;
+    font-size: 1.25rem;
+    font-weight: 500;
+    color: var(--branco)
+}
+
+main p {
+    max-width: 300px;
+    margin-bottom: 30px;
+    margin-top: -19px;
+    font-size: 0.80rem;
+    font-weight: 100;
+    color: var(--cinza)
+}
+
+/* Links */
+
+.container>a {
+    text-decoration: none;
+    color: var(--preto);
+    background-color: var(--branco);
+    width: 320px;
+    height: 60px;
+    margin-bottom: 20px;
+    text-align: center;
+    padding-top: 8px;
+    border-radius: 100px;
+}
+
+/* Rodapé */
+
+footer {
+    margin-top: 20px;
 }
